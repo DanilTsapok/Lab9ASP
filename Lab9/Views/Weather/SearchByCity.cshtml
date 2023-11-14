@@ -1,0 +1,7 @@
+﻿@model Lab9.Models.SearchByCity
+
+
+<form method="post" asp-action="SearchByCity" asp-controller="Weather">
+    <input asp-for="CityName" placeholder="Enter City Name" />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
